@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fragrances",
+      "handler": "fragrance.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fragrances/count",
+      "handler": "fragrance.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fragrances/:id",
+      "handler": "fragrance.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fragrances",
+      "handler": "fragrance.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fragrances/:id",
+      "handler": "fragrance.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fragrances/:id",
+      "handler": "fragrance.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

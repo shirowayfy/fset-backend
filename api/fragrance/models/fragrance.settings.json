@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fragrances",
+  "info": {
+    "name": "Fragrance",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "man",
+        "woman",
+        "unisex"
+      ]
+    }
+  }
+}
